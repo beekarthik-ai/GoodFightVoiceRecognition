@@ -1,0 +1,10 @@
+Dependencies for google cloud:
+- pip install google-cloud-speech
+- PyAudio 
+  - pip install pipwin
+  - pipwin install pyaudio 
+
+Need to create a google cloud project and download the Oauth key info as a son and do the following on CLI:
+
+export GOOGLE_APPLICATION_CREDENTIALS="[PATH TO Oauth key json]"
+
